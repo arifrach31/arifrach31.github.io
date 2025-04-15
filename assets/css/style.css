@@ -94,10 +94,57 @@ a {
   padding: 0 20px;
 }
 
-
 .social-link li:hover {
     text-decoration: underline;
 }
+
+.projects-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.projects-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin: 0 10px 10px 10px;
+  color: #ccc;
+}
+
+
 
 @media (max-width: 768px) {
   .container {
